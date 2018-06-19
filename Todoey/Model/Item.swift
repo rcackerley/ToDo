@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Item {
-    var title = ""
-    var checked = false
+class Item: Codable {
+    var title: String = ""
+    var checked: Bool = false
 }
